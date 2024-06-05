@@ -6,7 +6,7 @@ let unorderdList = document.querySelector("ul");
 
 btn.addEventListener("click", function () {
   let listItem = document.createElement("li");
-  listItem.innerText = inp.value;
+  listItem.innerText = inp.value.toUpperCase();
 
   let delBtn = document.createElement("button");
   delBtn.innerText = "Delete";
@@ -31,4 +31,3 @@ unorderdList.addEventListener("click", function (event) {
     listItem.remove();
   }
 });
-
