@@ -9,7 +9,7 @@ btn.addEventListener("click", function () {
   listItem.innerText = inp.value.toUpperCase();
 
   let delBtn = document.createElement("button");
-  delBtn.innerText = "Delete";
+  delBtn.innerText = "+";
   delBtn.classList.add("delete");
   listItem.appendChild(delBtn);
 
